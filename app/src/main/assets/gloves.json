@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1001,
+    "name": {"en": "test gloves","ko": "테스트 글러브"},
+    "imgWearList": [{"imgList": ["db_data_gloves_test_wear_f1"], "frameDelay": 100}],
+    "imgThum": {"imgList": ["db_data_gloves_test_wear_f1"], "frameDelay": 100},
+    "imgAttackList": [{"imgList": ["db_data_gloves_test_wear_f1"], "frameDelay": 100}],
+    "attackEffectList": [{"imgList": ["db_data_gloves_test_wear_f1"], "frameDelay": 100}],
+    "attackSoundList": ["sound1","sound2"],
+    "goldPrice": 2000,
+    "twigPrice": 0,
+    "eggPrice": 0,
+    "share": false,
+    "value": {"id": 1001},
+    "grade": {"id": 1001}
+  }
+]

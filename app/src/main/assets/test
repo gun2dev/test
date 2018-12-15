@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1001,
+
+    "name": {
+      "en": "AtPoint",
+      "ko": "공격력"
+    },
+
+    "desc": {
+      "en": "AtPoint desc",
+      "ko": "공격력 설명"
+    },
+
+    "thumImg": {
+      "imgList": ["db_data_costume_name1_part1_frame1", "db_data_costume_name1_part1_frame2", "db_data_costume_name1_part1_frame3"], "frameDelay": 100
+
+    },
+
+    "initLevel": 1,
+
+    "limit": 999,
+
+    "eggPrice": 1,
+
+    "eggPriceIncrease": 1,
+
+    "increase": 1
+
+  }
+]

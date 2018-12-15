@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1001,
+    "title": {"en": "Background Sound","ko": "배경음"},
+    "desc": {"en": "Background Sound control","ko": "배경음 설정"}
+  },
+  {
+    "id": 1002,
+    "title": {"en": "Effect Sound","ko": "효과음"},
+    "desc": {"en": "Effect Sound control","ko": "효과음 설정"}
+  }
+]

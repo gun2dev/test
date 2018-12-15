@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1001,
+    "name": {
+      "en": "skill1",
+      "ko": "1번 스킬"
+    },
+    "skillCastDel": 100,
+    "skillCastImg": {
+      "backSkillAnim": {
+        "imgList": [
+          "db_data_monster_skill_cast_seal01_back_f1",
+          "db_data_monster_skill_cast_seal01_back_f2",
+          "db_data_monster_skill_cast_seal01_back_f3"
+        ],
+        "frameDelay": 5
+      },
+      "backPoint": {
+        "x": 0,
+        "y": 2
+      },
+      "backSkillSize": 5,
+      "frontSkillAnim": {
+        "imgList": [
+          "db_data_monster_skill_cast_seal01_front_f1",
+          "db_data_monster_skill_cast_seal01_front_f2",
+          "db_data_monster_skill_cast_seal01_front_f3"
+        ],
+        "frameDelay": 100
+      },
+      "frontPoint": {
+        "x": 0,
+        "y": 1
+      },
+      "frontSkillSize": 5,
+      "effect": "fadeIn"
+    },
+    "skillFireImg": {
+      "backSkillAnim": {
+        "imgList": [
+          "db_data_costume_name1_part1_frame1",
+          "db_data_costume_name1_part1_frame2",
+          "db_data_costume_name1_part1_frame3"
+        ],
+        "frameDelay": 100
+      },
+      "frontSkillAnim": {
+        "imgList": [
+          "db_data_costume_name1_part1_frame1",
+          "db_data_costume_name1_part1_frame2",
+          "db_data_costume_name1_part1_frame3"
+        ],
+        "frameDelay": 100
+      }
+    },
+    "skillEfImg": [
+      {
+        "imgList": [
+          "db_data_costume_name1_part1_frame1",
+          "db_data_costume_name1_part1_frame2",
+          "db_data_costume_name1_part1_frame3"
+        ],
+        "frameDelay": 100
+      }
+    ],
+    "skillCastSound": "baseSkillCastSound",
+    "skillFireSound": "baseSkillFireSound",
+    "skillEfPoint": 100,
+    "duration": 100,
+    "skillStateCode": 1,
+    "skillCoolTime": 10
+  }
+]

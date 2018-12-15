@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.ui.menu.IdSelectionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/slot1_fragment_id_selection_ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <gun2.dev.glovesquest.utils.OutLineTextView
+            android:id="@+id/slot1_fragment_id_selection_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="slot1"
+            android:textColor="#eeee"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="@+id/slot1_fragment_id_selection_ImageButton"
+            app:layout_constraintEnd_toEndOf="@+id/slot1_fragment_id_selection_ImageButton"
+            app:layout_constraintStart_toStartOf="@+id/slot1_fragment_id_selection_ImageButton"
+            app:layout_constraintTop_toTopOf="@+id/slot1_fragment_id_selection_ImageButton"
+            app:textStroke="true"
+            app:textStrokeColor="#000000"
+            app:textStrokeWidth="7.0" />
+
+        <ImageButton
+            android:id="@+id/slot2_fragment_id_selection_ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <gun2.dev.glovesquest.utils.OutLineTextView
+            android:id="@+id/slot2_fragment_id_selection_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="slot2"
+            android:textColor="#eeee"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="@+id/slot2_fragment_id_selection_ImageButton"
+            app:layout_constraintEnd_toEndOf="@+id/slot2_fragment_id_selection_ImageButton"
+            app:layout_constraintStart_toStartOf="@+id/slot2_fragment_id_selection_ImageButton"
+            app:layout_constraintTop_toTopOf="@+id/slot2_fragment_id_selection_ImageButton"
+            app:textStroke="true"
+            app:textStrokeColor="#000000"
+            app:textStrokeWidth="7.0" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+</FrameLayout>

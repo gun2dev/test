@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1001,
+    "title": {"en": "hunting condition1","ko": "사냥 조건1"},
+    "desc": {"en": "kill monster","ko": "몬스터를 죽여라"},
+    "repeat": false,
+    "goal": 10
+  },
+
+  {
+    "id": 1002,
+    "title": {"en": "hunting condition2","ko": "사냥 조건2"},
+    "desc": {"en": "kill monster","ko": "몬스터를 죽여라2"},
+    "repeat": true,
+    "goal": 10
+  }
+]

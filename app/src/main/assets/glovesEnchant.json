@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1001,
+    "name": {"en": "pierce","ko": "관통"},
+    "min": 1,
+    "max": 30
+  },
+  {
+    "id": 1002,
+    "name": {"en": "Ignore defenses","ko": "방어 무시"},
+    "min": 1,
+    "max": 30
+  }
+]

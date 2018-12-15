@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1001,
+    "frontImg": {
+      "imgList": [
+        "db_data_twig_front"
+      ]
+    },
+    "thumImg": {
+      "imgList": [
+        "db_data_twig_thum"
+      ]
+    },
+    "limit": 100000
+  }
+]

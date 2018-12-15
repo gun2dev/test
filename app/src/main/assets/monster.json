@@ -1,0 +1,745 @@
+[
+  {
+    "id": 1001,
+    "name": {
+      "en": "monster1",
+      "ko": "1번 약한허수아비"
+    },
+    "monsterSize": 30,
+    "widthScale": 0,
+    "heightScale": 0,
+    "rewardGold": 123,
+    "atPoint": 100,
+    "defense": 100,
+    "health": 10000,
+    "recovery": 100,
+    "reflexes": 100,
+    "imgList": [
+      {
+        "imgList": [
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1"
+        ],
+        "frameDelay": 50,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01"
+              ],
+              "frameDelay": 2,
+              "repeat": -1
+            }
+          ],
+          "repeat": 0,
+          "startDelay": 10
+        }
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1"
+        ],
+        "frameDelay": 50,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01"
+              ],
+              "frameDelay": 2,
+              "repeat": -2
+            }
+          ],
+          "repeat": -2,
+          "startDelay": 10
+        }
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1"
+        ],
+        "frameDelay": 50,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01"
+              ],
+              "frameDelay": 2,
+              "repeat": -2
+            }
+          ],
+          "repeat": -3,
+          "startDelay": 10
+        }
+      }
+    ],
+    "struckImgList": [
+      {
+        "imgList": [
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1"
+        ],
+        "frameDelay": 100
+      }
+    ],
+    "deadImgList": [
+      {
+        "imgList": [
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1"
+        ],
+        "frameDelay": 100
+      }
+    ],
+    "monsterSkillAlgorithm": {
+      "defaultSkillList": [
+      ],
+      "monsterSkillList": [
+        {
+          "monsterSkill": {
+            "id": 1001
+          },
+          "skillCastImgList": [
+            {
+              "imgList": [
+                "db_data_monster_test_front_head_f1"
+              ],
+              "frameDelay": 100
+            },
+            {
+              "imgList": [
+                "db_data_monster_test_front_leg_f1"
+              ],
+              "frameDelay": 100
+            },
+            {
+              "imgList": [
+                "db_data_monster_test_front_body_f1"
+              ],
+              "frameDelay": 100
+            }
+          ],
+          "skillFireImgList": [
+            {
+              "imgList": [
+                "db_data_monster_test_front_head_f1",
+                "db_data_monster_test_front_head_f1",
+                "db_data_monster_test_front_head_f1"
+              ],
+              "frameDelay": 100
+            }
+          ],
+          "skillRange": [
+            3
+          ],
+          "alertTime": 10
+        }
+      ],
+      "startSkillList": [],
+      "skillProbability": 10000
+    },
+    "itemDropList": [
+      {
+        "globes": {
+          "id": 1001
+        },
+        "drop": 1
+      },
+      {
+        "gold": 1000,
+        "drop": 3
+      }
+    ],
+    "exp": 1010
+  },
+  {
+    "id": 1002,
+    "name": {
+      "en": "monster2",
+      "ko": "2번 약한허수아비"
+    },
+    "monsterSize": -3,
+    "widthScale": 0,
+    "heightScale": 0,
+    "rewardGold": 123,
+    "atPoint": 100,
+    "defense": 100,
+    "health": 10000,
+    "recovery": 100,
+    "reflexes": 100,
+    "imgList": [
+      {
+        "imgList": [
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1"
+        ],
+        "frameDelay": 50,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01"
+              ],
+              "frameDelay": 2,
+              "repeat": -1
+            }
+          ],
+          "repeat": -2,
+          "startDelay": 10
+        }
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1"
+        ],
+        "frameDelay": 50,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01"
+              ],
+              "frameDelay": 2,
+              "repeat": -1
+            }
+          ],
+          "repeat": -1,
+          "startDelay": 10
+        }
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1"
+        ],
+        "frameDelay": 50,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01"
+              ],
+              "frameDelay": 2,
+              "repeat": -1
+            }
+          ],
+          "repeat": -1,
+          "startDelay": 10
+        }
+      }
+    ],
+    "struckImgList": [
+      {
+        "imgList": [
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1"
+        ],
+        "frameDelay": 100
+      }
+    ],
+    "deadImgList": [
+      {
+        "imgList": [
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1"
+        ],
+        "frameDelay": 100
+      }
+    ],
+    "perMonsterSkillList": [
+      {
+        "monsterSkill": {
+          "id": 1001
+        },
+        "skillCastImgList": [
+          {
+            "imgList": [
+              "db_data_monster_test_front_head_f1",
+              "db_data_monster_test_front_head_f1",
+              "db_data_monster_test_front_head_f1"
+            ],
+            "frameDelay": 100
+          }
+        ],
+        "skillFireImgList": [
+          {
+            "imgList": [
+              "db_data_monster_test_front_head_f1",
+              "db_data_monster_test_front_head_f1",
+              "db_data_monster_test_front_head_f1"
+            ],
+            "frameDelay": 100
+          }
+        ],
+        "skillRange": 0,
+        "alertTime": 10
+      }
+    ],
+    "itemDropList": [
+      {
+        "globes": {
+          "id": 1001
+        },
+        "drop": 1
+      },
+      {
+        "gold": 1000,
+        "drop": 3
+      }
+    ],
+    "exp": 1010
+  },
+  {
+    "id": 1003,
+    "name": {
+      "en": "monster1",
+      "ko": "치과다녀온허수아비"
+    },
+    "widthScale": 0,
+    "heightScale": 0,
+    "rewardGold": 123,
+    "atPoint": 100,
+    "defense": 100,
+    "health": 10000,
+    "recovery": 100,
+    "reflexes": 100,
+    "imgList": [
+      {
+        "imgList": [
+          "db_data_monster_test_front_head_f01",
+          "db_data_monster_test_front_head_f02",
+          "db_data_monster_test_front_head_f03",
+          "db_data_monster_test_front_head_f04"
+        ],
+        "frameDelay": 50,
+        "repeat": -3,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01"
+              ],
+              "frameDelay": 2,
+              "frontDelay": 3,
+              "repeat": -1
+            },
+            {
+              "motionList": [
+                "sideMotion01"
+              ],
+              "frameDelay": 2,
+              "frontDelay": 3,
+              "repeat": -1
+            }
+          ],
+          "repeat": -1,
+          "startDelay": 10
+        }
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1"
+        ],
+        "frameDelay": 50,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01"
+              ],
+              "frameDelay": 2,
+              "frontDelay": 6,
+              "repeat": -1
+            }
+          ],
+          "repeat": -1,
+          "startDelay": 10
+        }
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1"
+        ],
+        "frameDelay": 50,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01"
+              ],
+              "frameDelay": 2,
+              "frontDelay": 9,
+              "repeat": -1
+            }
+          ],
+          "repeat": -1,
+          "startDelay": 10
+        }
+      }
+    ],
+    "struckImgList": [
+      {
+        "imgList": [
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1"
+        ],
+        "frameDelay": 100
+      }
+    ],
+    "deadImgList": [
+      {
+        "imgList": [
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1",
+          "db_data_monster_test_front_head_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1",
+          "db_data_monster_test_front_leg_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1",
+          "db_data_monster_test_front_body_f1"
+        ],
+        "frameDelay": 100
+      }
+    ],
+    "perMonsterSkillList": [
+      {
+        "monsterSkill": {
+          "id": 1001
+        },
+        "skillCastImgList": [
+          {
+            "imgList": [
+              "db_data_monster_test_front_head_f1",
+              "db_data_monster_test_front_head_f1",
+              "db_data_monster_test_front_head_f1"
+            ],
+            "frameDelay": 100
+          }
+        ],
+        "skillFireImgList": [
+          {
+            "imgList": [
+              "db_data_monster_test_front_head_f1",
+              "db_data_monster_test_front_head_f1",
+              "db_data_monster_test_front_head_f1"
+            ],
+            "frameDelay": 100
+          }
+        ],
+        "skillRange": 0,
+        "alertTime": 10
+      }
+    ],
+    "itemDropList": [
+      {
+        "globes": {
+          "id": 1001
+        },
+        "drop": 1
+      },
+      {
+        "gold": 1000,
+        "drop": 3
+      }
+    ],
+    "exp": 1010
+  },
+  {
+    "id": 1004,
+    "name": {
+      "en": "knight scarecrow",
+      "ko": "기사허수아비"
+    },
+    "widthScale": 0,
+    "heightScale": 0,
+    "rewardGold": 123,
+    "atPoint": 100,
+    "defense": 100,
+    "health": 10000,
+    "recovery": 100,
+    "reflexes": 100,
+    "imgList": [
+      {
+        "imgList": [
+          "db_data_monster_knightscarecrow_front_head_f1"
+        ],
+        "frameDelay": 50,
+        "repeat": -3,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01",
+                "sideMotion01"
+              ],
+              "frameDelay": 2,
+              "frontDelay": 3,
+              "repeat": -1
+            }
+          ],
+          "repeat": -1,
+          "startDelay": 10
+        }
+      },
+      {
+        "imgList": [
+          "db_data_monster_knightscarecrow_front_leg_f1"
+        ],
+        "frameDelay": 50,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01"
+              ],
+              "frameDelay": 2,
+              "frontDelay": 6,
+              "repeat": -1
+            }
+          ],
+          "repeat": -1,
+          "startDelay": 10
+        }
+      },
+      {
+        "imgList": [
+          "db_data_monster_knightscarecrow_front_body_f1",
+          "db_data_monster_knightscarecrow_front_body_f2",
+          "db_data_monster_knightscarecrow_front_body_f3",
+          "db_data_monster_knightscarecrow_front_body_f2"
+        ],
+        "frameDelay": 25,
+        "motionSet": {
+          "motionAnimList": [
+            {
+              "motionList": [
+                "upDownMotion01"
+              ],
+              "frameDelay": 2,
+              "frontDelay": 9,
+              "repeat": -1
+            }
+          ],
+          "repeat": -1,
+          "startDelay": 10
+        }
+      }
+    ],
+    "struckImgList": [
+      {
+        "imgList": [
+          "db_data_monster_knightscarecrow_struck_head_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_knightscarecrow_front_leg_f1"
+        ],
+        "frameDelay": 100
+      },
+      {
+        "imgList": [
+          "db_data_monster_knightscarecrow_struck_body_f1"
+        ],
+        "frameDelay": 100
+      }
+    ],
+    "deadImgList": [
+      {
+        "imgList": [
+          "db_data_monster_knightscarecrow_dead_head_f1",
+          "db_data_monster_knightscarecrow_dead_head_f2",
+          "db_data_monster_knightscarecrow_dead_head_f3"
+        ],
+        "frameDelay": 10,
+        "repeat": -2
+      },
+      {
+        "imgList": [
+          "db_data_monster_knightscarecrow_dead_leg_f1",
+          "db_data_monster_knightscarecrow_dead_leg_f2",
+          "db_data_monster_knightscarecrow_dead_leg_f3"
+        ],
+        "frameDelay": 10,
+        "repeat": -2
+      },
+      {
+        "imgList": [
+          "db_data_monster_knightscarecrow_dead_body_f1",
+          "db_data_monster_knightscarecrow_dead_body_f2",
+          "db_data_monster_knightscarecrow_dead_body_f3"
+        ],
+        "frameDelay": 10,
+        "repeat": -2
+      }
+    ],
+    "monsterSkillAlgorithm": {
+      "monsterSkillList": [
+        {
+          "monsterSkill": {
+            "id": 1001
+          },
+          "skillCastImgList": [
+            {
+              "imgList": [
+                "db_data_monster_knightscarecrow_front_head_f1",
+                "db_data_monster_knightscarecrow_struck_head_f1"
+              ],
+              "frameDelay": 100
+            },
+            {
+              "imgList": [
+                "db_data_monster_knightscarecrow_front_leg_f1"
+              ],
+              "frameDelay": 100
+            },
+            {
+              "imgList": [
+                "db_data_monster_knightscarecrow_skill01_body_f1",
+                "db_data_monster_knightscarecrow_skill01_body_f2",
+                "db_data_monster_knightscarecrow_skill01_body_f3",
+                "db_data_monster_knightscarecrow_skill01_body_f4"
+              ],
+              "frameDelay": 2
+            }
+          ],
+          "skillFireImgList": [
+            {
+              "imgList": [
+                "db_data_monster_knightscarecrow_dead_head_f1"
+              ],
+              "frameDelay": 100
+            }
+          ],
+          "skillRange": [],
+          "alertTime": 10
+        }
+      ],
+      "skillProbability": 5000
+    },
+    "itemDropList": [
+      {
+        "globes": {
+          "id": 1001
+        },
+        "drop": 1
+      },
+      {
+        "gold": 1000,
+        "drop": 3
+      }
+    ],
+    "exp": 1010
+  }
+]

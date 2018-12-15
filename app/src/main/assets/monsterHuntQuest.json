@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1001,
+
+    "title": {
+      "en": "monster hunt quest 1",
+      "ko": "1번 몬스터헌트퀘스트"
+    },
+
+    "desc": {
+      "en": "monster hunt quest 1 desc",
+      "ko": "1번 몬스터헌트퀘스트 설명"
+    },
+
+    "conditionList" : [
+      {
+        "monster": {"id": 1001},
+        "title": {
+          "en": "quest condition title1",
+          "ko": "퀘스트 조건 제목1"
+        },
+        "desc": {
+          "en": "quest condition desc1",
+          "ko": "퀘스트 조건 설명1"
+        },
+        "goal": 10,
+        "repeat": false
+      }
+    ],
+
+    "reward": {
+      "title": {
+        "en": "reward title1",
+        "ko": "1번 보상 제목"
+      },
+      "globesList": [
+        {"id": 1001}
+      ],
+      "gold": 123,
+      "twig": 124
+    }
+  }
+]

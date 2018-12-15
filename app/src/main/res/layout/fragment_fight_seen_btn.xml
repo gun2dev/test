@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.ui.button.StartSeenBtnFragment"
+    xmlns:tx="http://schemas.android.com/apk/res-auto"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/menu_fragment_fight_seen_btn_imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_launcher_round"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <gun2.dev.glovesquest.utils.OutLineTextView
+            android:id="@+id/menu_fragment_fight_seen_btn_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="menu"
+            android:textColor="#eeee"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="@+id/menu_fragment_fight_seen_btn_imageButton"
+            app:layout_constraintEnd_toEndOf="@+id/menu_fragment_fight_seen_btn_imageButton"
+            app:layout_constraintStart_toStartOf="@+id/menu_fragment_fight_seen_btn_imageButton"
+            app:textStroke="true"
+            app:textStrokeColor="#000000"
+            app:textStrokeWidth="7.0" />
+
+        <ImageButton
+            android:id="@+id/back_fragment_fight_seen_btn_imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/ic_launcher_round"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <gun2.dev.glovesquest.utils.OutLineTextView
+            android:id="@+id/back_fragment_fight_seen_btn_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back"
+            android:textColor="#eeee"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="@+id/back_fragment_fight_seen_btn_imageButton"
+            app:layout_constraintEnd_toEndOf="@+id/back_fragment_fight_seen_btn_imageButton"
+            app:layout_constraintStart_toStartOf="@+id/back_fragment_fight_seen_btn_imageButton"
+            app:textStroke="true"
+            app:textStrokeColor="#000000"
+            app:textStrokeWidth="7.0" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

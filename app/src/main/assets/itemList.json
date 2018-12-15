@@ -1,0 +1,24 @@
+[
+{
+  "id": 1,
+  "upgrade": 0,
+  "get": false,
+  "time": 123432153214,
+  "name": "gloves",
+  "imgWear": "asdfsadfasd",
+  "imgThum": ":asdfsadf:",
+  "imgAttack": "sdfgdfg",
+  "attackEffect": 1
+},
+{
+  "id": 2,
+  "upgrade": 0,
+  "get": false,
+  "time": 123432153214,
+  "name": "gloves",
+  "imgWear": "asdfsadfasd",
+  "imgThum": ":asdfsadf:",
+  "imgAttack": "sdfgdfg",
+  "attackEffect": 1
+}
+]

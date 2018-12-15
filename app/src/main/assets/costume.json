@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1001,
+    "name": {"en": "test costume1","ko": "테스트 코스튬1"},
+    "frontImgList": [
+      {"imgList": ["db_data_costume_name1_part1_frame1", "db_data_costume_name1_part1_frame2", "db_data_costume_name1_part1_frame3"], "frameDelay": 100},
+      {"imgList": ["db_data_costume_name1_part2_frame1", "db_data_costume_name1_part2_frame2", "db_data_costume_name1_part2_frame3"], "frameDelay": 100}
+    ],
+    "backImgList": [
+      {"imgList": ["img1back1", "img1back2"], "frameDelay": 100},
+      {"imgList": ["img2back1", "img2back2"], "frameDelay": 100}
+    ],
+    "thumImg": {}
+  }
+]

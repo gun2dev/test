@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1001,
+    "gloves": null,
+    "gold": null,
+    "twig": {"id" : 1001},
+    "costume": null,
+    "egg": null,
+    "drop": 50
+  }
+]

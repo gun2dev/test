@@ -1,0 +1,154 @@
+[
+  {
+    "stage": 1,
+    "name": {
+      "en": "stage 1-1",
+      "ko": "스테이지 1-1"
+    },
+    "bgImg": {
+      "sky": {
+        "img": "db_data_bgimg_grassland_sky_main_f1",
+        "directionX": 1,
+        "directionY": 0,
+        "frameDelay": 5
+      },
+      "dis": {
+        "mainImg": "db_data_bgimg_grassland_dis_main_f1",
+        "animImg": {
+          "imgList": [
+            "db_data_bgimg_grassland_dis_anim_f1",
+            "db_data_bgimg_grassland_dis_anim_f2",
+            "db_data_bgimg_grassland_dis_anim_f3"
+          ],
+          "frameDelay": 5
+        }
+      },
+      "close": {
+        "mainImg": "db_data_bgimg_grassland_close_main_f1_1800"
+      }
+    },
+    "bgm": "baseBgm",
+    "monsterGenList": [
+      {
+        "monster": {
+          "id": 1001
+        },
+        "genProbability": 10000,
+        "monsterGenTime": 5,
+        "genPointList": 5000,
+        "monsterLimit": 2,
+        "genPointList": [
+          {
+            "x": 10,
+            "y": 50
+          },
+          {
+            "x": 30,
+            "y": 50
+          },
+          {
+            "x": 40,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "monster": {
+          "id": 1004
+        },
+        "genProbability": 10000,
+        "monsterGenTime": 5,
+        "genPointList": 5000,
+        "monsterLimit": 2,
+        "genPointList": [
+          {
+            "x": 50,
+            "y": 70
+          },
+          {
+            "x": 30,
+            "y": 70
+          },
+          {
+            "x": 40,
+            "y": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stage": 2,
+    "name": {
+      "en": "test stage 1-1",
+      "ko": "test 스테이지 1-1"
+    },
+    "bgImg": {
+      "sky": {
+        "img": "db_data_bgimg_grassland_sky_main_f1",
+        "directionX": 1,
+        "directionY": 0,
+        "frameDelay": 5
+      },
+      "dis": {
+        "mainImg": "db_data_bgimg_grassland_dis_main_f1",
+        "animImg": {
+          "imgList": [
+            "db_data_bgimg_grassland_dis_anim_f1",
+            "db_data_bgimg_grassland_dis_anim_f2",
+            "db_data_bgimg_grassland_dis_anim_f3"
+          ],
+          "frameDelay": 5
+        }
+      },
+      "close": {
+        "mainImg": "db_data_bgimg_grassland_close_main_f1_1800"
+      }
+    },
+    "bgm": "baseBgm",
+    "monsterGenList": [
+      {
+        "monster": {
+          "id": 1001
+        },
+        "genProbability": 10000,
+        "monsterGenTime": 5,
+        "genPointList": 5000,
+        "monsterLimit": 2,
+        "genPointList": [
+          {
+            "x": 10,
+            "y": 50
+          },
+          {
+            "x": 30,
+            "y": 50
+          },
+          {
+            "x": 40,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "monster": {
+          "id": 1004
+        },
+        "genProbability": 10000,
+        "monsterGenTime": 5,
+        "genPointList": 5000,
+        "monsterLimit": 2,
+        "genPointList": [
+          {
+            "x": 25,
+            "y": 70
+          },
+          {
+            "x": 70,
+            "y": 70
+          }
+        ]
+      }
+    ]
+  }
+]
